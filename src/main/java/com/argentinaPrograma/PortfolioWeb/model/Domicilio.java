@@ -13,7 +13,7 @@ public class Domicilio {
     @Id
     private Long id;
 
-    private String dirección;
+    private String direccion;
     private Long persona_dni;
     private Long id_localidad;
 
@@ -21,11 +21,11 @@ public class Domicilio {
     }
 
     public Domicilio(Long id,
-            String dirección,
+            String direccion,
             Long persona_dni,
             Long id_localidad) {
         this.id = id;
-        this.dirección = dirección;
+        this.direccion = direccion;
         this.persona_dni = persona_dni;
         this.id_localidad = id_localidad;
     }

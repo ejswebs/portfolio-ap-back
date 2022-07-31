@@ -11,19 +11,19 @@ import lombok.Setter;
 public class Usuario {
 
     @Id
-    private String user_name;
+    private String user;
 
     private String password;
-    
+
     private Long persona_dni;
 
     public Usuario() {
     }
 
-    public Usuario(String user_name,
+    public Usuario(String user,
             String password,
             Long persona_dni) {
-        this.user_name = user_name;
+        this.user = user;
         this.password = password;
         this.persona_dni = persona_dni;
     }
