@@ -14,7 +14,7 @@
     <name>PortfolioWeb</name>
     <description>Portfolio Web desde Argentina Programa</description>
     <properties>
-        <java.version>11</java.version>
+        <java.version>8</java.version>
         <start-class>com.argentinaPrograma.Portfolioweb.PortfolioWebApplication</start-class>
     </properties>
     <dependencies>
