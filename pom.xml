@@ -14,15 +14,14 @@
     <name>PortfolioWeb</name>
     <description>Portfolio Web desde Argentina Programa</description>
     <properties>
-        <start-class>com.argentinaPrograma.Portfolioweb.PortfolioWebApplication</start-class>
         <java.version>11</java.version>
+        <start-class>com.argentinaPrograma.Portfolioweb.PortfolioWebApplication</start-class>
     </properties>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -58,10 +57,8 @@
             <type>module</type>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
-            
         </plugins>
     </build>
 
