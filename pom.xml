@@ -16,6 +16,7 @@
     <properties>
         <java.version>8</java.version>
         <start-class>com.argentinaPrograma.Portfolioweb.PortfolioWebApplication</start-class>
+        <mainClass>com.argentinaPrograma.PortfolioWeb.PortfolioWebApplication</mainClass>
     </properties>
     <dependencies>
         <dependency>
@@ -57,7 +58,8 @@
             <type>module</type>
         </dependency>
     </dependencies>
-    <build>
+    <build>        
+        
         <plugins>
         </plugins>
     </build>
